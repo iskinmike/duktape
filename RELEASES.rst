@@ -3197,6 +3197,12 @@ Planned
 * Add support for Symbol.toStringTag (@@toStringTag) in
   Object.prototype.toString() (GH-1822)
 
+* Add support for Symbol.isConcatSpreadable (@@isConcatSpreadable) in
+  Array.prototype.concat() (GH-1823)
+
+* Remove DUK_USE_NONSTD_ARRAY_CONCAT_TRAILER because the underlying ES5.1
+  specification "bug" was fixed in ES2015 (GH-1823)
+
 * Add duk_random() to allow C code access to the same random number source
   as Ecmascript code (GH-1815)
 
