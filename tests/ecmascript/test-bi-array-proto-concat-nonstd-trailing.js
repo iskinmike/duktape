@@ -56,6 +56,9 @@
  *
  *  The default behavior for Duktape will be changed to match the other engines,
  *  even though this seems non-standard.
+ *
+ *  ES2015 fixed this specification "bug" so the non-standard behavior is
+ *  now standard.
  */
 
 /*---
