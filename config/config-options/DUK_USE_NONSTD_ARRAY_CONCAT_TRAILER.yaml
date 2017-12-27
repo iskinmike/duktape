@@ -1,5 +1,6 @@
 define: DUK_USE_NONSTD_ARRAY_CONCAT_TRAILER
 introduced: 1.0.0
+removed: 2.3.0
 default: true
 tags:
   - ecmascript
@@ -12,3 +13,6 @@ description: >
 
   If this option is disabled, concat() will behave in a strictly conforming
   fashion, ignoring non-existent trailing elements in the result length.
+
+  This option was removed in 2.3.0 because ES2015 fixes the specification
+  bug and Duktape tracks the latest Ecmascript.
